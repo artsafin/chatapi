@@ -1,0 +1,13 @@
+group 'com.artsafin'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+//    compile group: 'org.jetty', name: 'jetty', ve
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
